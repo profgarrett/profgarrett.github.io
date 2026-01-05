@@ -1,2 +1,2 @@
 # profgarrett.github.io
-profgarrett.github.io
+Homepage for profgarrett.github.io
