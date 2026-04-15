@@ -113,3 +113,10 @@ Use the preview window to test for common problems. Some common issues:
 ## Share with students
 
 - Share your new GPT link in eCampus
+
+
+# External Resources 
+
+- [List of ideas for using custom GPTs in the classroom](https://derekbruff.org/2025/10/01/five-teaching-applications-of-custom-ai-chatbots/)
+- [Nice prompt for class chatbot](https://cdil.bc.edu/resources/emerging-technologies/engaging-with-ai/ai-assistants/chatbot-prompt-for-poli2404-fitzgibbon/)
+- [INFUSE Prompt](https://www.reddit.com/r/ChatGPTPromptGenius/comments/1j2v124/how_to_build_customgpts_2025_guide/)
