@@ -1,0 +1,68 @@
+/*
+ * toc.css — Table of Contents styles for profgarrett.github.io
+ * Loaded dynamically by toc.js
+ */
+
+/* Floating box that wraps the TOC */
+.toc {
+    padding: 10px;
+    margin: 0 0 30px 30px;
+    max-width: 280px;
+    float: right;
+}
+
+/* Inner bordered panel */
+.toc-block {
+    padding: 10px 14px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+/* "Contents" heading */
+.toc-title {
+    font-weight: bold;
+    font-size: 1.05em;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+/* Reset list styling */
+.toc-list {
+    list-style: none;
+    padding-left: 0 !important;
+    margin: 0;
+}
+
+.toc-item {
+    margin: 4px 0;
+}
+
+/* Indentation by heading level */
+.toc-level-h2 { padding-left: 0; }
+.toc-level-h3 { padding-left: 14px; }
+.toc-level-h4 { padding-left: 28px; }
+.toc-level-h5 { padding-left: 42px; }
+.toc-level-h6 { padding-left: 56px; }
+
+/* Link styles */
+.toc-list a {
+    text-decoration: none;
+    color: #0645ad;
+}
+
+.toc-list a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive: stack the TOC above content on narrow screens */
+@media (max-width: 640px) {
+    .toc {
+        float: none;
+        margin: 0 0 20px 0;
+        max-width: 100%;
+    }
+}
