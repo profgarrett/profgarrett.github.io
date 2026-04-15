@@ -2,8 +2,14 @@
     
 This guide shows how to build and use a custom AI Tutorbot as part of your course, with a focus on supporting your learning goals—not just setting up a tool. Think of the Tutorbot as a structured way to guide students through practice, ask better questions, and give feedback using your course materials. When it’s set up well, it acts like an extension of you—helping students work through concepts and get feedback while still keeping real assessment in your hands.
 
+**Class Examples:**
 
-## Signup & Platform comparison
+- [Python Exam](https://chatgpt.com/g/g-69cfcaf0fb708191a7c2359ad409c84f-python-exam-3-bot)
+- [AIS Exam](https://chatgpt.com/g/g-6938694655048191a8d7b869a9aaabc8-ais-exam-2-tutorbot)
+- [Fraud case](https://chatgpt.com/g/g-696a562253a48191b34b82db95a84d3b-acct-321-vendor-payments-case-v0-8)
+- [Sample Notebook LLM](https://notebooklm.google.com/notebook/3bc6e179-2d5f-4ed2-a780-b8d81289ff29)
+
+## Signup & platform comparison
 
 If you haven't already, sign up for a Pro level of ChatGPT. You can not create a custom GPT on the default (free) version of ChatGPT.
 
@@ -44,7 +50,7 @@ Go to the Custom GPTs section of ChatGPT, and click "Create a custom GPT".
 - **Capabilities**: Turn off features you don't think will be helpful, such as image or code.
 
 
-### Prompt Design
+### Prompt design
 
 You can have the model ask students for the difficulty level they want to cover
 
