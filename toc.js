@@ -8,7 +8,20 @@
  *   <script src="/toc.js"></script>
  */
 
+
+function loadGtag() {
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-FW5XCZZEW1';
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-FW5XCZZEW1');
+}
 document.addEventListener('DOMContentLoaded', function () {
+    loadGtag(); 
     generateTableOfContents();
 });
 
